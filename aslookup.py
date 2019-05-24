@@ -25,6 +25,7 @@ class ASLookup(BotPlugin):
                 yield f'{ip}: {e}'
 
         if outs:
+            response = '\n'.join(outs)
             #self.send_card(to=message.to, body='```' + '\n'.join(outs) + '```')
-            self.send_card(body=f'```{"\n".join(outs)}```', in_reply_to=message)
+            self.send_card(body=f'```{response}```', in_reply_to=message)
         return
