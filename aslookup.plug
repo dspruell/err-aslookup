@@ -1,0 +1,10 @@
+[Core]
+name = ASLookup
+module = aslookup
+
+[Documentation]
+description = Return BGP routing data for IP addresses
+
+[Python]
+version = 3
+
