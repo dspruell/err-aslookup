@@ -1,6 +1,7 @@
 # err-aslookup
-Errbot plugin to look up BGP routing data for IP addresses. This uses the
-aslookup module to query data from public IP-BGP services.
+[Errbot](https://errbot.io/) plugin to look up BGP routing data for IP
+addresses. This uses the [aslookup](https://github.com/dspruell/aslookup)
+module to query data from public IP-BGP services.
 
 # Requirements
 This plugin has been tested with Err version 6 and requires Python 3.6+.
